@@ -1,0 +1,10 @@
+{% extends 'kt1_app/base.html' %}
+
+{% block content %}
+    <h1>Get info about url</h1>
+    <p>URL: {{ url.url }}</p>
+    <p>Short code: {{ url.shortCode }}</p>
+    <p>Created at: {{ url.createdAt }}</p>
+    <p>Updated at: {{ url.updatedAt }}</p>
+    <p>Access count: {{ url.accessCount }}</p>
+{% endblock %}

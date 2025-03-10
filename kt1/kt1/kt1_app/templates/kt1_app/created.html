@@ -1,0 +1,8 @@
+{%extends 'kt1_app/base.html'%}
+{%block content%}
+    <h1>URL created</h1>
+    <p class="success">URL has been created</p>
+    <p>Full URL: {{url.url}}</p>
+    <p>Short URL: <a href="{% url 'view_url' url.shortCode %}">{{request.scheme}}://{{request.get_host}}/{{url.shortCode}}</a></p>
+    <p>Created at: {{url.createdAt}}</p>
+{%endblock%}

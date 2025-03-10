@@ -1,0 +1,12 @@
+{%extends 'kt1_app/base.html'%}
+{%block content%}
+    <h1>View URL</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            <label for="shortCode">Short Url:</label>
+            <input type="text" id="shortCode" name="shortCode" required>
+        </div>
+        <button type="submit">View</button>
+    </form>
+{%endblock%}

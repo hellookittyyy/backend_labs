@@ -17,10 +17,12 @@ def check(array):
         return False
 
 with open('input_2.txt', 'r') as f:
+    counter = 0 
     for line in f:
         array = line.split(" ")
         if check(array):
             print(line.strip(), "it`s safe", sep=" - ")
+            # counter += 1
         else:
             safe = False
             for i in range(len(array)):
@@ -28,9 +30,11 @@ with open('input_2.txt', 'r') as f:
                 del_num = array2.pop(i)
                 if check(array2):
                     safe = True
+                    counter += 1
                     print(line.strip(), "it`s safe by del " + del_num, sep=" - ")
                     break
             if not safe:
                 print(line.strip(), "it`s unsafe regardless of which level is removed.", sep=" - ")
 
+print(counter)
     

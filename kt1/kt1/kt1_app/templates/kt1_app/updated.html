@@ -1,11 +1,13 @@
 {% extends 'kt1_app/base.html' %}
 
 {%block content%}
-    
+
+    <div class="container">
     <h1>URL updated</h1>
     <p class="success">URL has been updated</p>
     <p>Full URL: {{url.url}}</p>
     <p>New short URL: <a href="{% url 'view_url' url.shortCode %}">{{request.scheme}}://{{request.get_host}}/{{url.shortCode}}</a></p>
     <p>Last updated: {{url.updatedAt}}</p>
-
+    </div>
+    
 {%endblock%}

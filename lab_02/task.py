@@ -1,4 +1,5 @@
 with open('input_2.txt', 'r') as f:
+    counter = 0
     for line in f:
         array = line.split(" ")
         result_decreasing = True
@@ -15,6 +16,8 @@ with open('input_2.txt', 'r') as f:
                 result_distance = False
         if (result_decreasing or result_increasing) and result_distance:
             print(line.strip(), "it`s safe", sep=" - ")
+            counter += 1
         else:
             print(line.strip(), "it`s not safe", sep=" - ")
-        
+            
+    print(counter)   

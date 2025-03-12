@@ -10,9 +10,9 @@ def check_inst(me):
 
 with open('input_6.txt', 'r') as f:
     your_score = 0
-    A = X = 1 # rock
-    B = Y = 2 # paper
-    C = Z = 3 # scissors
+    #A = X = 1 # rock
+    #B = Y = 2 # paper
+    #C = Z = 3 # scissors
 
     # AX = draw (4), AY = my win(8), AZ = my f(3)
     # BX = my f(1), BY = draw(5), BZ = my win(9)

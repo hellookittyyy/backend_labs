@@ -13,6 +13,10 @@ lab_02:
       - task: 218
       
       - extra task: 290 safe, 72 safe after del
+
+lab_06:
+--- 
+      - task: 8933
       
 kt1:
 ---

@@ -1,7 +1,6 @@
-# MY LABS
----
 
-![54f4cd5c267e2d62e29e4d0989b6a485](https://github.com/user-attachments/assets/5bcbd97d-72a8-43eb-b80d-93bbd2705134)
+![2](https://github.com/user-attachments/assets/8f662ef2-8992-4e81-990c-25a2af813b0b)
+
 
 lab_01:
 ---

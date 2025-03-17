@@ -1,6 +1,8 @@
 # MY LABS
 ---
 
+![54f4cd5c267e2d62e29e4d0989b6a485](https://github.com/user-attachments/assets/5bcbd97d-72a8-43eb-b80d-93bbd2705134)
+
 lab_01:
 ---
       - task: 1660292
@@ -29,8 +31,13 @@ lab_05:
 lab_06:
 --- 
       - task: 8933
-      
+
 kt1:
 ---
   video presentation (my project) *it`s really beautiful!
   [[Video]](https://youtu.be/FH5a4W29kAw)
+
+
+
+  
+
